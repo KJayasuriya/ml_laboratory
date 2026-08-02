@@ -26,6 +26,8 @@ def eda_tabular(df, target = None):
     if len(numeric_cols) > 1:
         plt.figure(figsize=(8, 6))
         sns.heatmap(df[numeric_cols].corr(), annot=True, cmap="coolwarm")
+        if len(numeric_cols)>8:
+            sns.heatmap(df[numeric_cols].corr(), annot=False, cmap="coolwarm")
         plt.title("Correlation Heatmap")
         plt.show()
     if "message" in df.columns:
@@ -40,7 +42,7 @@ def eda_tabular(df, target = None):
         plt.xlabel(target)
         plt.ylabel("Count")
         plt.show()
-
+    return numeric_cols,categorical_cols
 
 def eda_images(df, label_col="label", image_size=(28, 28), samples=9):
 
