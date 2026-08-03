@@ -11,7 +11,6 @@ ml_laboratory/
 ├── assign2/      # Naive Bayes & K-Nearest Neighbors
 ├── assign3/      # Linear Regression Models
 ├── assign4/      # Logistic Regression & Support Vector Machine
-├── reports/      # LaTeX reports and PDFs
 ├── datasets/     # Dataset files
 ├── images/       # Figures used in reports
 └── README.md
