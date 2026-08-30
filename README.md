@@ -11,8 +11,10 @@ ml_laboratory/
 ├── assign2/      # Naive Bayes & K-Nearest Neighbors
 ├── assign3/      # Linear Regression Models
 ├── assign4/      # Logistic Regression & Support Vector Machine
+├── assign5/      # Decision Tree and Random Forest Classification 
+├── assign6/      # Bagging and Boosting (Ensemble models)
+├── assign7/      # Dimensionality Reduction
 ├── datasets/     # Dataset files
-├── images/       # Figures used in reports
 └── README.md
 ```
 
@@ -26,7 +28,9 @@ ml_laboratory/
 | 2 | Email Spam Classification | Gaussian NB, Multinomial NB, Bernoulli NB, KNN |
 | 3 | Regression Analysis | Linear Regression, Ridge, Lasso, ElasticNet |
 | 4 | Binary Classification | Logistic Regression, Support Vector Machine |
-
+| 5 | Binary Classification | Decision Tree and Random Forest | 
+| 6 | Ensemble models | Bagging and Boosting algorithms |
+| 7 | Dimensionality reduction | with and without PCA | 
 ---
 
 ## Topics Covered
